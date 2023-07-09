@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Log in</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+<style>
+
+	 * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+}
+
+h1 {
+	font-size: 3rem;
+	font-family: 'Permanent Marker', cursive;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 30px;
+    color: #989898;
+}
+
+h2 {
+	font-size: 0.9rem;
+	font-family: 'Oooh Baby', cursive;
+	text-align: center;
+    color: #fff;
+}
+
+.main {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 80vh;
+   padding-top: 20px;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px (0,0,0,0.2);
+    gap: 10px;
+}
+
+button {
+    width: 95%;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+    background: #6f668d;
+    color: #2b0042;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+   font-family: 'Permanent Marker', cursive;
+ }
+
+button:hover {
+    background: #1366d1;
+}
+
+ input {
+     width: 85%; 
+     height: 40px;
+     border: 0;
+     outline: none;
+     font-size: 15px;
+     padding-left: 20px;
+     font-weight: 500;
+     padding-bottom: 1px;
+ }
+
+ a {
+    color: #fff;
+ }
+
+</style>
+<body>
+	       <h1>Boost Your</h2>
+           <h2>Social Media Marketing</h2>
+    <div class="main">
+       <div class="container">
+           <input type="username" name="username" id="email" placeholder="Enter your username" required>
+           <input type="password" name="pass" id="pass" placeholder="Password">
+           <button class="login-btn">Sign in</button>
+          <p>Do not have an account?  <a href="sign up.html">Sign up</p></a>
+       </div>
+   </div>
+</body>
+</html>
